@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gpc defaultLocale="en_US" version="4" keySequence="182" currentLocale="en_US">
+  <product appid="PHSP" version="13" name="Photoshop CS6"/>
+  <target id="PHSP-13"/>
+  <ConfiguratorPanel name="vector_time" width="84" height="464" init="doInit" close="doClose" persistent="True" extensionId="com.configurator.vector_time" extensionVersion="1.0.0" menuName="Vector Time" flyoutMenuAbout="$$$/Configurator/FlyoutMenu/about">
+    <onInit><![CDATA[]]></onInit>
+    <aboutBox><![CDATA[]]></aboutBox>
+    <extensionDescription><![CDATA[]]></extensionDescription>
+    <extensionAuthor><![CDATA[ChadAlanJackson]]></extensionAuthor>
+    <onClose><![CDATA[]]></onClose>
+    <eventListeners>
+      <function id="doInit" actionType="jsfunction" jsFunctionName="invoke_script">
+        <param id="onInit"/>
+      </function>
+      <function id="doClose" actionType="jsfunction" jsFunctionName="invoke_script">
+        <param id="onClose"/>
+      </function>
+    </eventListeners>
+    <ps_tool _selectID="directSelectTool" _itemId="Tool-Direct_Selection_Tool" icon="SP_AnchorSelect_Lg_N" overIcon="SP_AnchorSelect_Lg_N_D" toolTip="$$$/Tool-Direct_Selection_Tool/desc" scriptID="Tool-Direct_Selection_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###7" width="29" height="26" x="45" y="0">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="pathComponentSelectTool" _itemId="Tool-Path_Selection_Tool" icon="SP_Select_Lg_N" overIcon="SP_Select_Lg_N_D" toolTip="$$$/Tool-Path_Selection_Tool/desc" scriptID="Tool-Path_Selection_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###6" width="29" height="26" x="9" y="0">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="deleteKnotTool" _itemId="Tool-Delete_Anchor_Point_Tool" icon="SP_AnchorDel_Lg_N" overIcon="SP_AnchorDel_Lg_N_D" toolTip="$$$/Tool-Delete_Anchor_Point_Tool/desc" scriptID="Tool-Delete_Anchor_Point_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###4" width="29" height="26" x="45" y="34">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="addKnotTool" _itemId="Tool-Add_Anchor_Point_Tool" icon="SP_AnchorAdd_Lg_N" overIcon="SP_AnchorAdd_Lg_N_D" toolTip="$$$/Tool-Add_Anchor_Point_Tool/desc" scriptID="Tool-Add_Anchor_Point_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###3" width="29" height="26" x="10" y="34">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="penTool" _itemId="Tool-Pen_Tool" icon="SP_VectorDraw_Lg_N" overIcon="SP_VectorDraw_Lg_N_D" toolTip="$$$/Tool-Pen_Tool/desc" scriptID="Tool-Pen_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###1" width="29" height="26" x="45" y="68">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="freeformPenTool" _itemId="Tool-Freeform_Pen_Tool" icon="SP_FreeformVectorDraw_Lg_N" overIcon="SP_FreeformVectorDraw_Lg_N_D" toolTip="$$$/Tool-Freeform_Pen_Tool/desc" scriptID="Tool-Freeform_Pen_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###2" width="29" height="26" x="10" y="69">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="rectangleTool" _itemId="Tool-Rectangle_Tool" icon="SP_Rectangle_Lg_N" overIcon="SP_Rectangle_Lg_N_D" toolTip="$$$/Tool-Rectangle_Tool/desc" scriptID="Tool-Rectangle_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###8" width="29" height="26" x="45" y="102">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="convertKnotTool" _itemId="Tool-Convert_Point_Tool" icon="SP_ConvertAnchor_Lg_N" overIcon="SP_ConvertAnchor_Lg_N_D" toolTip="$$$/Tool-Convert_Point_Tool/desc" scriptID="Tool-Convert_Point_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###5" width="29" height="26" x="10" y="102">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="ellipseTool" _itemId="Tool-Ellipse_Tool" icon="SP_Ellipse_Lg_N" overIcon="SP_Ellipse_Lg_N_D" toolTip="$$$/Tool-Ellipse_Tool/desc" scriptID="Tool-Ellipse_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###11" width="29" height="26" x="45" y="136">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="polygonTool" _itemId="Tool-Polygon_Tool" icon="SP_Polygon_Lg_N" overIcon="SP_Polygon_Lg_N_D" toolTip="$$$/Tool-Polygon_Tool/desc" scriptID="Tool-Polygon_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###10" width="29" height="26" x="10" y="136">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="lineTool" _itemId="Tool-Line_Tool" icon="SP_Line_Lg_N" overIcon="SP_Line_Lg_N_D" toolTip="$$$/Tool-Line_Tool/desc" scriptID="Tool-Line_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###14" width="29" height="26" x="45" y="170">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_tool _selectID="roundedRectangleTool" _itemId="Tool-Rounded_Rectangle_Tool" icon="SP_RoundedRectangle_Lg_N" overIcon="SP_RoundedRectangle_Lg_N_D" toolTip="$$$/Tool-Rounded_Rectangle_Tool/desc" scriptID="Tool-Rounded_Rectangle_Tool" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###9" width="29" height="26" x="10" y="170">
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="scriptID"/>
+        </function>
+      </eventListeners>
+    </ps_tool>
+    <ps_command _itemId="Main-Edit-Transform-Rotate_180°" scriptID="Main-Edit-Transform-Rotate_180°" toolTip="$$$/Main-Edit-Transform-Rotate_180°/desc" label="$$$/Main-Edit-Transform-Rotate_180°/name" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###21" x="11" y="320">
+      <script><![CDATA[ErrStrs = {}; ErrStrs.USER_CANCELLED=localize("$$$/ScriptingSupport/Error/UserCancelled=User cancelled the operation"); try {var idRtte = charIDToTypeID( 'Rtte' );     var desc1061 = new ActionDescriptor();     var idAngl = charIDToTypeID( 'Angl' );     var idAng = charIDToTypeID( '#Ang' );     desc1061.putUnitDouble( idAngl, idAng, 180.000000 ); executeAction( idRtte, desc1061, DialogModes.ALL ); } catch(e){if (e.toString().indexOf(ErrStrs.USER_CANCELLED)!=-1) {;} else{alert(localize("$$$/ScriptingSupport/Error/CommandNotAvailable=The command is currently not available"));}}]]></script>
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="script"/>
+        </function>
+      </eventListeners>
+    </ps_command>
+    <ps_command _itemId="Main-Edit-Transform-Perspective" scriptID="Main-Edit-Transform-Perspective" toolTip="$$$/Main-Edit-Transform-Perspective/desc" label="$$$/Main-Edit-Transform-Perspective/name" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###20" x="10" y="291">
+      <script><![CDATA[ErrStrs = {}; ErrStrs.USER_CANCELLED=localize("$$$/ScriptingSupport/Error/UserCancelled=User cancelled the operation"); try {var idslct = charIDToTypeID( 'slct' );     var desc1063 = new ActionDescriptor();     var idnull = charIDToTypeID( 'null' );         var ref837 = new ActionReference();         var idMn = charIDToTypeID( 'Mn  ' );         var idMnIt = charIDToTypeID( 'MnIt' );         var idPrsp = charIDToTypeID( 'Prsp' );         ref837.putEnumerated( idMn, idMnIt, idPrsp );     desc1063.putReference( idnull, ref837 ); executeAction( idslct, desc1063, DialogModes.ALL ); } catch(e){if (e.toString().indexOf(ErrStrs.USER_CANCELLED)!=-1) {;} else{alert(localize("$$$/ScriptingSupport/Error/CommandNotAvailable=The command is currently not available"));}}]]></script>
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="script"/>
+        </function>
+      </eventListeners>
+    </ps_command>
+    <ps_command _itemId="Main-Edit-Transform-Scale" scriptID="Main-Edit-Transform-Scale" toolTip="$$$/Main-Edit-Transform-Scale/desc" label="$$$/Main-Edit-Transform-Scale/name" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###16" x="7" y="262">
+      <script><![CDATA[ErrStrs = {}; ErrStrs.USER_CANCELLED=localize("$$$/ScriptingSupport/Error/UserCancelled=User cancelled the operation"); try {var idslct = charIDToTypeID( 'slct' );     var desc1067 = new ActionDescriptor();     var idnull = charIDToTypeID( 'null' );         var ref841 = new ActionReference();         var idMn = charIDToTypeID( 'Mn  ' );         var idMnIt = charIDToTypeID( 'MnIt' );         var idScl = charIDToTypeID( 'Scl ' );         ref841.putEnumerated( idMn, idMnIt, idScl );     desc1067.putReference( idnull, ref841 ); executeAction( idslct, desc1067, DialogModes.ALL ); } catch(e){if (e.toString().indexOf(ErrStrs.USER_CANCELLED)!=-1) {;} else{alert(localize("$$$/ScriptingSupport/Error/CommandNotAvailable=The command is currently not available"));}}]]></script>
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="script"/>
+        </function>
+      </eventListeners>
+    </ps_command>
+    <ps_command _itemId="Main-Edit-Transform-Distort" scriptID="Main-Edit-Transform-Distort" toolTip="$$$/Main-Edit-Transform-Distort/desc" label="$$$/Main-Edit-Transform-Distort/name" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###19" x="38" y="262">
+      <script><![CDATA[ErrStrs = {}; ErrStrs.USER_CANCELLED=localize("$$$/ScriptingSupport/Error/UserCancelled=User cancelled the operation"); try {var idslct = charIDToTypeID( 'slct' );     var desc1064 = new ActionDescriptor();     var idnull = charIDToTypeID( 'null' );         var ref838 = new ActionReference();         var idMn = charIDToTypeID( 'Mn  ' );         var idMnIt = charIDToTypeID( 'MnIt' );         var idDstr = charIDToTypeID( 'Dstr' );         ref838.putEnumerated( idMn, idMnIt, idDstr );     desc1064.putReference( idnull, ref838 ); executeAction( idslct, desc1064, DialogModes.ALL ); } catch(e){if (e.toString().indexOf(ErrStrs.USER_CANCELLED)!=-1) {;} else{alert(localize("$$$/ScriptingSupport/Error/CommandNotAvailable=The command is currently not available"));}}]]></script>
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="script"/>
+        </function>
+      </eventListeners>
+    </ps_command>
+    <ps_command _itemId="Main-Edit-Transform-Rotate" scriptID="Main-Edit-Transform-Rotate" toolTip="$$$/Main-Edit-Transform-Rotate/desc" label="$$$/Main-Edit-Transform-Rotate/name" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###17" x="6" y="233">
+      <script><![CDATA[ErrStrs = {}; ErrStrs.USER_CANCELLED=localize("$$$/ScriptingSupport/Error/UserCancelled=User cancelled the operation"); try {var idslct = charIDToTypeID( 'slct' );     var desc1066 = new ActionDescriptor();     var idnull = charIDToTypeID( 'null' );         var ref840 = new ActionReference();         var idMn = charIDToTypeID( 'Mn  ' );         var idMnIt = charIDToTypeID( 'MnIt' );         var idRtte = charIDToTypeID( 'Rtte' );         ref840.putEnumerated( idMn, idMnIt, idRtte );     desc1066.putReference( idnull, ref840 ); executeAction( idslct, desc1066, DialogModes.ALL ); } catch(e){if (e.toString().indexOf(ErrStrs.USER_CANCELLED)!=-1) {;} else{alert(localize("$$$/ScriptingSupport/Error/CommandNotAvailable=The command is currently not available"));}}]]></script>
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="script"/>
+        </function>
+      </eventListeners>
+    </ps_command>
+    <ps_command _itemId="Main-Edit-Transform-Skew" scriptID="Main-Edit-Transform-Skew" toolTip="$$$/Main-Edit-Transform-Skew/desc" label="$$$/Main-Edit-Transform-Skew/name" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###18" x="42" y="233">
+      <script><![CDATA[ErrStrs = {}; ErrStrs.USER_CANCELLED=localize("$$$/ScriptingSupport/Error/UserCancelled=User cancelled the operation"); try {var idslct = charIDToTypeID( 'slct' );     var desc1065 = new ActionDescriptor();     var idnull = charIDToTypeID( 'null' );         var ref839 = new ActionReference();         var idMn = charIDToTypeID( 'Mn  ' );         var idMnIt = charIDToTypeID( 'MnIt' );         var idSkew = charIDToTypeID( 'Skew' );         ref839.putEnumerated( idMn, idMnIt, idSkew );     desc1065.putReference( idnull, ref839 ); executeAction( idslct, desc1065, DialogModes.ALL ); } catch(e){if (e.toString().indexOf(ErrStrs.USER_CANCELLED)!=-1) {;} else{alert(localize("$$$/ScriptingSupport/Error/CommandNotAvailable=The command is currently not available"));}}]]></script>
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="script"/>
+        </function>
+      </eventListeners>
+    </ps_command>
+    <ps_command _itemId="Main-Edit-Free_Transform" scriptID="Main-Edit-Free_Transform" toolTip="$$$/Main-Edit-Free_Transform/desc" label="$$$/Main-Edit-Free_Transform/name" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###15" x="2" y="204">
+      <script><![CDATA[ErrStrs = {}; ErrStrs.USER_CANCELLED=localize("$$$/ScriptingSupport/Error/UserCancelled=User cancelled the operation"); try {var idslct = charIDToTypeID( 'slct' );     var desc1069 = new ActionDescriptor();     var idnull = charIDToTypeID( 'null' );         var ref842 = new ActionReference();         var idMn = charIDToTypeID( 'Mn  ' );         var idMnIt = charIDToTypeID( 'MnIt' );         var idFrTr = charIDToTypeID( 'FrTr' );         ref842.putEnumerated( idMn, idMnIt, idFrTr );     desc1069.putReference( idnull, ref842 ); executeAction( idslct, desc1069, DialogModes.ALL ); } catch(e){if (e.toString().indexOf(ErrStrs.USER_CANCELLED)!=-1) {;} else{alert(localize("$$$/ScriptingSupport/Error/CommandNotAvailable=The command is currently not available"));}}]]></script>
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="script"/>
+        </function>
+      </eventListeners>
+    </ps_command>
+    <ps_command _itemId="Main-Edit-Transform-Rotate_90°_CW" scriptID="Main-Edit-Transform-Rotate_90°_CW" toolTip="$$$/Main-Edit-Transform-Rotate_90°_CW/desc" label="$$$/Main-Edit-Transform-Rotate_90°_CW/name" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###22" x="4" y="349">
+      <script><![CDATA[ErrStrs = {}; ErrStrs.USER_CANCELLED=localize("$$$/ScriptingSupport/Error/UserCancelled=User cancelled the operation"); try {var idRtte = charIDToTypeID( 'Rtte' );     var desc1060 = new ActionDescriptor();     var idAngl = charIDToTypeID( 'Angl' );     var idAng = charIDToTypeID( '#Ang' );     desc1060.putUnitDouble( idAngl, idAng, 90.000000 ); executeAction( idRtte, desc1060, DialogModes.ALL ); } catch(e){if (e.toString().indexOf(ErrStrs.USER_CANCELLED)!=-1) {;} else{alert(localize("$$$/ScriptingSupport/Error/CommandNotAvailable=The command is currently not available"));}}]]></script>
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="script"/>
+        </function>
+      </eventListeners>
+    </ps_command>
+    <ps_command _itemId="Main-Edit-Transform-Rotate_90°_CCW" scriptID="Main-Edit-Transform-Rotate_90°_CCW" toolTip="$$$/Main-Edit-Transform-Rotate_90°_CCW/desc" label="$$$/Main-Edit-Transform-Rotate_90°_CCW/name" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###23" x="1" y="378">
+      <script><![CDATA[ErrStrs = {}; ErrStrs.USER_CANCELLED=localize("$$$/ScriptingSupport/Error/UserCancelled=User cancelled the operation"); try {var idRtte = charIDToTypeID( 'Rtte' );     var desc1059 = new ActionDescriptor();     var idAngl = charIDToTypeID( 'Angl' );     var idAng = charIDToTypeID( '#Ang' );     desc1059.putUnitDouble( idAngl, idAng, -90.000000 ); executeAction( idRtte, desc1059, DialogModes.ALL ); } catch(e){if (e.toString().indexOf(ErrStrs.USER_CANCELLED)!=-1) {;} else{alert(localize("$$$/ScriptingSupport/Error/CommandNotAvailable=The command is currently not available"));}}]]></script>
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="script"/>
+        </function>
+      </eventListeners>
+    </ps_command>
+    <ps_command _itemId="Main-Edit-Transform-Flip_Horizontal" scriptID="Main-Edit-Transform-Flip_Horizontal" toolTip="$$$/Main-Edit-Transform-Flip_Horizontal/desc" label="$$$/Main-Edit-Transform-Flip_Horizontal/name" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###24" x="5" y="407">
+      <script><![CDATA[ErrStrs = {}; ErrStrs.USER_CANCELLED=localize("$$$/ScriptingSupport/Error/UserCancelled=User cancelled the operation"); try {var idFlip = charIDToTypeID( 'Flip' );     var desc1058 = new ActionDescriptor();     var idAxis = charIDToTypeID( 'Axis' );     var idOrnt = charIDToTypeID( 'Ornt' );     var idHrzn = charIDToTypeID( 'Hrzn' );     desc1058.putEnumerated( idAxis, idOrnt, idHrzn ); executeAction( idFlip, desc1058, DialogModes.ALL ); } catch(e){if (e.toString().indexOf(ErrStrs.USER_CANCELLED)!=-1) {;} else{alert(localize("$$$/ScriptingSupport/Error/CommandNotAvailable=The command is currently not available"));}}]]></script>
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="script"/>
+        </function>
+      </eventListeners>
+    </ps_command>
+    <ps_command _itemId="Main-Edit-Transform-Flip_Vertical" scriptID="Main-Edit-Transform-Flip_Vertical" toolTip="$$$/Main-Edit-Transform-Flip_Vertical/desc" label="$$$/Main-Edit-Transform-Flip_Vertical/name" click="onClick" cfgVisible="$$$/Configurator/Attribute/visible/value###25" x="10" y="436">
+      <script><![CDATA[ErrStrs = {}; ErrStrs.USER_CANCELLED=localize("$$$/ScriptingSupport/Error/UserCancelled=User cancelled the operation"); try {var idFlip = charIDToTypeID( 'Flip' );     var desc1057 = new ActionDescriptor();     var idAxis = charIDToTypeID( 'Axis' );     var idOrnt = charIDToTypeID( 'Ornt' );     var idVrtc = charIDToTypeID( 'Vrtc' );     desc1057.putEnumerated( idAxis, idOrnt, idVrtc ); executeAction( idFlip, desc1057, DialogModes.ALL ); } catch(e){if (e.toString().indexOf(ErrStrs.USER_CANCELLED)!=-1) {;} else{alert(localize("$$$/ScriptingSupport/Error/CommandNotAvailable=The command is currently not available"));}}]]></script>
+      <eventListeners>
+        <function id="onClick" actionType="jsfunction" jsFunctionName="ps_invoke_script">
+          <param id="script"/>
+        </function>
+      </eventListeners>
+    </ps_command>
+  </ConfiguratorPanel>
+</gpc>
