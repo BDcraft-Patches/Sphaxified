@@ -7,4 +7,4 @@ These are technically copyright their respective owners, but released freely bec
 
 These textures are not restricted by the main BDcraft [License](http://bdcraft.net/license-terms-of-use).
 
-Lots of PSDs for textures can be found in the main [BDcracft Patches](https://github.com/BDcraft-Patches) organization repositories.
+Lots of PSDs for textures can be found in the main [BDcraft Patches](https://github.com/BDcraft-Patches) organization repositories.
