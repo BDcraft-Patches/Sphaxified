@@ -1,0 +1,19 @@
+#BIMP 2.6
+#MANIPULATION SET DEFINITION
+[USERDEF0]
+procedure=gimp-context-set-palette
+num_params=1
+PARAM0=bdc_trim_palette.gpl
+
+[USERDEF1]
+procedure=file-png-set-defaults
+num_params=9
+PARAM0=0
+PARAM1=9
+PARAM2=0
+PARAM3=0
+PARAM4=0
+PARAM5=0
+PARAM6=0
+PARAM7=0
+PARAM8=0
